@@ -2,7 +2,7 @@ function calc() {
     let operand = prompt('Please, enter an operand');
     let firstNum = Number(prompt('Please, enter first number'));
     let secondNum = Number(prompt('Please, enter second number'));
-    return alert(`Your result is: ${calculation(firstNum, secondNum, operand)}`);
+    return alert(`${firstNum} ${operand} ${secondNum} = ${calculation(firstNum, secondNum, operand)}`);
 }
 
 function calculation(firstNum, secondNum, operand) {
